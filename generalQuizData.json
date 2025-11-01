@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the plural of 'child'?",
+    "options": [ "childs", "children", "childes", "child" ],
+    "correctAnswer": "children"
+  },
+  {
+    "question": "Which one is a verb?",
+    "options": [ "quick", "run", "blue", "happy" ],
+    "correctAnswer": "run"
+  },
+  {
+    "question": "Select the correct form: She ____ to school every day.",
+    "options": [ "go", "goes", "going", "gone" ],
+    "correctAnswer": "goes"
+  },
+  {
+    "question": "What is the opposite of 'big'?",
+    "options": [ "small", "tall", "wide", "short" ],
+    "correctAnswer": "small"
+  },
+  {
+    "question": "Which one is an adjective?",
+    "options": [ "beauty", "beautiful", "beautify", "beautifully" ],
+    "correctAnswer": "beautiful"
+  },
+  {
+    "question": "They ____ playing football now.",
+    "options": [ "was", "are", "is", "be" ],
+    "correctAnswer": "are"
+  },
+  {
+    "question": "How many days are there in a week?",
+    "options": [ "5", "6", "7", "8" ],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "Where ____ you from?",
+    "options": [ "is", "are", "be", "am" ],
+    "correctAnswer": "are"
+  },
+  {
+    "question": "Choose the correct past tense: I ____ to the cinema yesterday.",
+    "options": [ "go", "went", "going", "gone" ],
+    "correctAnswer": "went"
+  },
+  {
+    "question": "What is the synonym of 'happy'?",
+    "options": [ "sad", "angry", "joyful", "tired" ],
+    "correctAnswer": "joyful"
+  },
+  {
+    "question": "She is ____ than her sister.",
+    "options": [ "tall", "taller", "tallest", "most tall" ],
+    "correctAnswer": "taller"
+  },
+  {
+    "question": "What is 10 + 5?",
+    "options": [ "14", "15", "16", "13" ],
+    "correctAnswer": "15"
+  },
+  {
+    "question": "Which one is a preposition?",
+    "options": [ "under", "fast", "read", "blue" ],
+    "correctAnswer": "under"
+  },
+  {
+    "question": "He ____ eat meat. He’s a vegetarian.",
+    "options": [ "doesn’t", "don’t", "isn’t", "hasn’t" ],
+    "correctAnswer": "doesn’t"
+  },
+  {
+    "question": "Choose the correct article: I saw ____ elephant at the zoo.",
+    "options": [ "a", "an", "the", "some" ],
+    "correctAnswer": "an"
+  },
+  {
+    "question": "Which one is a fruit?",
+    "options": [ "carrot", "tomato", "apple", "lettuce" ],
+    "correctAnswer": "apple"
+  },
+  {
+    "question": "Complete the sentence: My father is a ____",
+    "options": [ "teacher", "quickly", "yellow", "reading" ],
+    "correctAnswer": "teacher"
+  },
+  {
+    "question": "Find the correct question form: ____ do you live?",
+    "options": [ "Who", "When", "Where", "What" ],
+    "correctAnswer": "Where"
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [ "He play football.", "He plays football.", "He playing football.", "He is play football." ],
+    "correctAnswer": "He plays football."
+  },
+  {
+    "question": "Choose the comparative: This book is ____ than the other.",
+    "options": [ "more interesting", "most interesting", "interestinger", "interesting" ],
+    "correctAnswer": "more interesting"
+  }
+]

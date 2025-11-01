@@ -1,0 +1,177 @@
+/* Genel stil ve sayfa düzeni */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.selectors select {
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  margin: 0 10px 20px 0;
+  min-width: 150px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.selectors select:hover,
+.selectors select:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  outline: none;
+}
+
+.text-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  user-select: text;
+}
+
+.text-card h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #ffd700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.text-card p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  white-space: pre-line;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #ff758c, #ff7eb3);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(255, 117, 140, 0.5);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #ff7eb3, #ff758c);
+  box-shadow: 0 7px 25px rgba(255, 126, 179, 0.7);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.cloze-test {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.cloze-test p {
+  margin-bottom: 15px;
+}
+
+.cloze-input {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  width: 100px;
+  max-width: 80vw;
+}
+
+.feedback-container {
+  margin-top: 15px;
+}
+
+.feedback {
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.feedback.correct {
+  color: #00e676;
+}
+
+.feedback.incorrect {
+  color: #ff1744;
+}
+
+.loading-text,
+.no-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .selectors select {
+    min-width: 120px;
+    margin-bottom: 15px;
+  }
+
+  .text-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .text-card p {
+    font-size: 1.1rem;
+  }
+
+  .btn-primary {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
